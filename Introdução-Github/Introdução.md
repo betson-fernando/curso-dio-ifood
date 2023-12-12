@@ -18,13 +18,13 @@ O Github, por sua vez, é um servidor que hospeda uma aplicação git, facilitan
     <tbody align="center">
       <tr>
         <td rowspan="9">config</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td></td>
+        <td></td>
         <td>Exibe todos os tokens do comando "config".</td>
       </tr>
     <tr>
       <td rowspan="5">--global</td>
-      <td>&nbsp;</td>
+      <td></td>
       <td>Diz respeito aos parâmetros globais (de usuário).</td>
     </tr>
     <tr>
@@ -45,24 +45,24 @@ O Github, por sua vez, é um servidor que hospeda uma aplicação git, facilitan
     </tr>
     <tr>
       <td>--system</td>
-      <td>&nbsp;</td>
+      <td></td>
       <td>Diz respeito aos parâmetros de sistema (OS, ... ).</td>
     </tr>
     <tr>
       <td>--local</td>
-      <td>&nbsp;</td>
+      <td></td>
       <td>Diz respeito aos parâmetros locais (de reposit&oacute;rio).</td>
     </tr>
     <tr>
       <td>[--global, --system, --local] --list [--show-origin]</td>
-      <td>&nbsp;</td>
+      <td></td>
       <td>Lista as variáveis gravadas. Se fornecer o escopo (global, system, ou local), lista as variáveis deste escopo. Se --show-origin estiver presente, exibe o caminho em que a variável está guardada.</td>
     </tr>
     <tr>
       <td>clone</td>
-      <td>&nbsp;</td>
-      <td>repo_url [repo-nome]</td>
-      <td>Clona o repositório de link "repo_url" para a pasta na qual o comando foi chamado. Use "repo-nome" para renomear localmente a pasta do repositório. </td>
+      <td></td>
+      <td>repo_url [repo-nome] [--branch nome_branch --single-branch]</td>
+      <td>Clona o repositório de link "repo_url" para a pasta na qual o comando foi chamado. Use "repo-nome" para renomear localmente a pasta do repositório. Se a opção "--branch nome-branch --single-branch" estiver presente, clona apenas o branch "nome-branch".</td>
     </tr>
     <tr>
       <td rowspan=2>remote</td>
